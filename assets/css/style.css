@@ -14,8 +14,8 @@ header {
   background: #4aaaa5;
   border-color: #cccccc;
   color: #ffffff;
-  width: 20%;
   text-align: center;
+  position: left;
 }
 
 h1 {
@@ -41,4 +41,8 @@ img {
 
 .topnav {
   float: right;
+}
+
+.name {
+  width: 20%;
 }
