@@ -43,7 +43,7 @@ footer {
   position: relative;
   background-color: #666666;
   text-align: center;
-  border-top: 10px solid #4aaaa5;
+  border-top: 8px solid #4aaaa5;
   height: 50px;
 
   color: #cccccc;
@@ -70,20 +70,26 @@ footer {
   /* color: #777777; */
 }
 
-a:link {
+a:link,
+a:visited {
   text-decoration: none;
   color: #777777;
 }
 
-.line1 {
-  width: 1px;
-  height: 5px;
+a:hover {
+  color: #44913a;
+  font-size: 150%;
 }
 
-.line2 {
+/* .line1 {
   width: 1px;
   height: 5px;
-}
+} */
+
+/* .line2 {
+  width: 1px;
+  height: 5px;
+} */
 
 .myname {
   right: 25px;
@@ -109,9 +115,6 @@ a:link {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* margin-top: 20px; */
 }
 
 .form {
