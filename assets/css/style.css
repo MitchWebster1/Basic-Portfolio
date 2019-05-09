@@ -4,7 +4,8 @@
 
 body {
   font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
-  color: #777777;
+  color: #000000;
+  height: 100%;
   /* width: 960px; */
   /* margin: auto; */
 }
@@ -30,10 +31,10 @@ header {
   /* padding-right: 25px; */
 }
 
-img {
+/* img {
   width: 250px;
   height: 175px;
-}
+} */
 
 p {
   line-height: 2;
@@ -41,13 +42,16 @@ p {
 
 footer {
   position: relative;
-  background-color: #666666;
+  background-color: #000000;
   text-align: center;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #ab5f1b;
   height: 50px;
 
   color: #cccccc;
   /* vertical-align: bottom; */
+}
+.white {
+  color: #ffffff;
 }
 
 .footer {
@@ -77,7 +81,7 @@ a:visited {
 }
 
 a:hover {
-  color: #44913a;
+  color: #ab5f1b;
   font-size: 150%;
 }
 
@@ -93,22 +97,22 @@ a:hover {
 
 .myname {
   right: 25px;
-  bottom: -21px;
+  bottom: -22px;
   position: relative;
   line-height: 225%;
   width: 30%;
-  background: #4aaaa5;
+  background: #ab5f1b;
 }
 
 .main {
   position: relative;
-  background-image: url(../images/floor-tile.png);
-  height: 700px;
+  background-image: url(../images/waterfall.jpg);
+  height: 1000px;
   padding-top: 40px;
 }
 
 .about {
-  background-color: #ffffff;
+  background-color: #ffffffd9;
   width: 960px;
   position: relative;
   overflow: auto;
@@ -118,7 +122,7 @@ a:hover {
 }
 
 .form {
-  background-color: #ffffff;
+  background-color: #ffffffd9;
   width: 960px;
   position: relative;
   overflow: auto;
@@ -131,12 +135,14 @@ a:hover {
   width: 100%;
   margin-top: 8px;
   margin-bottom: 12px;
+  background-color: #ffffffd9;
 }
 
 #email {
   width: 100%;
   margin-top: 8px;
   margin-bottom: 12px;
+  background-color: #ffffffd9;
 }
 
 #message {
@@ -144,71 +150,86 @@ a:hover {
   height: 150px;
   margin-top: 8px;
   margin-bottom: 12px;
+  background-color: #ffffffd9;
 }
 
 .submit {
   margin-bottom: 12px;
-  background-color: #4aaaa5;
+  background-color: #ab5f1b;
   color: #ffffff;
 }
 
 h2 {
-  color: #4aaaa5;
+  color: #ab5f1b;
 }
 
 .portfolio {
-  background-color: #ffffff;
+  background-color: #5454525c;
   width: 960px;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-  height: 650px;
+  padding-bottom: 25px;
+  /* height: 650px; */
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .pics {
-  margin: 10px;
-  width: 150px;
+  margin-right: 25px;
+  margin-top: 25px;
+  /* width: 150px; */
 }
 
 .pic1 {
   position: relative;
-  top: 10px;
+  /* top: 10px;
   right: 0px;
-  left: -10px;
-  /* float: left; */
+  left: -10px; */
+  float: left;
 }
 .pic2 {
   position: relative;
-  top: -179px;
+  /* top: -244px;
   right: 0px;
-  left: 270px;
-  /* float: left; */
+  left: 320px; */
+  float: left;
+  /* clear: right; */
 }
 .pic3 {
   position: relative;
-  top: -150px;
+  /* top: -227px;
   right: 0px;
-  left: -10px;
-  /* float: left; */
+  left: -10px; */
+  float: left;
+  clear: left;
 }
 .pic4 {
   position: relative;
-  top: -339px;
+  /* top: -481px;
   right: 0px;
-  left: 270px;
-  /* float: left; */
+  left: 320px; */
+  float: left;
+}
+.pic5 {
+  position: relative;
+  /* top: -465px;
+  right: 0px;
+  left: -10px; */
+  float: left;
+  clear: left;
 }
 .banners {
   text-align: center;
   position: absolute;
   color: #cccccc;
   /* right: 20px; */
-  top: 105px;
+  top: 170px;
   z-index: 10;
-  background-color: #4aaaa5;
-  width: 250px;
+  background-color: #02020494;
+  width: 300px;
   height: 35px;
   padding-top: 10px;
 }
